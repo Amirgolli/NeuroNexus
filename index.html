@@ -13,15 +13,17 @@
         <div class="mainFlex">
             <form action="" method="post" class="formInput">
                 <h1>send Your resume</h1>
-                <label for="">enter your full name:</label>
-                <input class="inputLog" type="text" placeholder="enter your full name">
-                <label for="">enter your phone:</label>
-                <input class="inputLog" type="number" name="" id="" placeholder="enter your phone">
-                <label  for=""></label>
-                <label for="">enter your company name:</label>
-                <input class="inputLog" type="text" placeholder="complete name">
-                <label for="">your E-mail:</label>
-                <input class="inputLog" type="email" placeholder="@gmail.com">
+                <label  for="full name">enter your full name:</label>
+                <input class="inputLog" type="text" placeholder="enter your full name" name="full name">
+
+                <label for="phone">enter your phone:</label>
+                <input class="inputLog" type="tel" name="phone" id="" placeholder="enter your phone">
+
+                <label for="company">enter your company name:</label>
+                <input class="inputLog" type="text" placeholder="company name" name="company">
+
+                <label for="email">your E-mail:</label>
+                <input class="inputLog" type="email" placeholder="@gmail.com" name="email">
                 <label for="">select your department</label>
                 <select name="department" id="">
                     <option value="">HR</option>
@@ -31,7 +33,7 @@
                     <option value="">IT</option>
                 </select>
                 <section id="gender">
-                    <label for="">select your gender:</label>
+                    <label for="Gender">select your gender:</label>
                     <div class="">
                         <span>Male</span>
                         <input type="radio" name="Gender">
@@ -45,8 +47,8 @@
                         <input type="radio" name="Gender">
                     </div>
                 </section>
-                <label for=""> enter your address:</label>
-                <textarea name="" id=""></textarea>
+                <label for="address "> enter your address:</label>
+                <textarea name="address" id=""></textarea>
         
                 <button id="btn-form" type="submit">submit</button>
             </form>

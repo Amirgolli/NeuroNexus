@@ -10,7 +10,7 @@ img{
 .mainFlex{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
 
@@ -30,9 +30,13 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: max-content;
     padding: 20px;
     margin-left: 150px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    height: 750px;
 }
 
 #gender{
@@ -40,6 +44,7 @@ img{
     justify-content: space-around;
     gap: 15px;
 }
+
 
 #btn-form{
     height: 30px;
@@ -51,6 +56,7 @@ img{
     border-radius: 4px;
     cursor: pointer;
     transition: all  .2s;
+    
 }
 #btn-form:hover{
     background-color: rgb(63, 137, 233);
@@ -61,16 +67,12 @@ label{
     font-size: 20px;
 }
 .inputLog{
-    border: solid gray .5px;
+    border: solid rgb(117, 117, 117) .5px;
     border-radius: 3px;
     height: 40px;
     width: 100%;
 }
-input::backdrop{
-    border: solid red .5px;
 
-    
-}
 select{
     /* border-radius: 3px; */
     height: 40px;
